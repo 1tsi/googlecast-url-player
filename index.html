@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="/css/bootstrap.min.css">
+		<script src="helloVideos.js"></script>
+		<script type="text/javascript" src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
+   		<title>GoogleCast URL-Player</title>
+	</head>
+	<body>
+		<div class="container">
+  			<div class="jumbotron">
+    			<h4>GoogleCast URL-Player</h4> 
+    			<input class="mt-2 mb-3 form-control mr-sm-2" type="text" name="customMediaURL" value="" id="customMediaURL" placeholder="https://">
+			<div class=text-center><button onclick="launchApp()" type="button" id="checkAvailable" class="btn">Looking for Cast-Device</button></div>
+  			</div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+  				<div class="card-header">Debug</div>
+  				<div class="card-body">
+   					<ul id=debugmessage class="list-group list-group-flush"></ul>
+  				</div>
+			</div>
+		</div>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+	</body>
+</html>
